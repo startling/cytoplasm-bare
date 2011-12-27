@@ -16,5 +16,5 @@ def markdown_interpreter(file, destination):
 # and the destination directory of its output.
 controllers = [
     # you can optionally specify where the templates are; here, use the controller's defaults.
-    ("blog", ["_posts", "_build/blog", "_controllers/blog/templates"]),
+    ("blog", ["_posts", "_build", "_controllers/blog/templates"]),
 ]
